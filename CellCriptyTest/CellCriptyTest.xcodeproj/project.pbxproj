@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D98B0088C0B6D1BDB4B5D1F /* Pods_CellCriptyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F3A8DB90382B9D1E9E031B /* Pods_CellCriptyTest.framework */; };
+		EC9025EDEFB7CDF1A82F45E0 /* Pods_CellCriptyTest_CellCriptyTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E571B4CBD98842F1A952AE /* Pods_CellCriptyTest_CellCriptyTestTests.framework */; };
+		F5197B21245F536E002FCCE3 /* FactorialPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5197B20245F536E002FCCE3 /* FactorialPresenter.swift */; };
+		F5197B2A245F61AE002FCCE3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5197B29245F61AE002FCCE3 /* Calculator.swift */; };
+		F5197B2C245F6244002FCCE3 /* FactorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5197B2B245F6244002FCCE3 /* FactorialViewController.swift */; };
+		F5197B2E245F69D5002FCCE3 /* FactorialPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5197B2D245F69D5002FCCE3 /* FactorialPresenterTests.swift */; };
+		F5197B32245F6D77002FCCE3 /* FactorialFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5197B31245F6D77002FCCE3 /* FactorialFactory.swift */; };
+		F5197B34245F6D9B002FCCE3 /* ModuloFactoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5197B33245F6D9B002FCCE3 /* ModuloFactoryImp.swift */; };
+		F5197B36245F710D002FCCE3 /* FactorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5197B35245F710D002FCCE3 /* FactorialViewController.xib */; };
 		F54406A6245F3AD9003F2AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54406A5245F3AD9003F2AEF /* AppDelegate.swift */; };
 		F54406A8245F3AD9003F2AEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54406A7245F3AD9003F2AEF /* SceneDelegate.swift */; };
-		F54406AA245F3AD9003F2AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54406A9245F3AD9003F2AEF /* ViewController.swift */; };
-		F54406AD245F3AD9003F2AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54406AB245F3AD9003F2AEF /* Main.storyboard */; };
 		F54406AF245F3ADB003F2AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54406AE245F3ADB003F2AEF /* Assets.xcassets */; };
 		F54406B2245F3ADB003F2AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54406B0245F3ADB003F2AEF /* LaunchScreen.storyboard */; };
-		F54406BD245F3ADB003F2AEF /* CellCriptyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54406BC245F3ADB003F2AEF /* CellCriptyTestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +33,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C50661D4F49886D548EF7F7B /* Pods-CellCriptyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellCriptyTest.debug.xcconfig"; path = "Target Support Files/Pods-CellCriptyTest/Pods-CellCriptyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CC01747736AF80A07EA4F732 /* Pods-CellCriptyTest-CellCriptyTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellCriptyTest-CellCriptyTestTests.release.xcconfig"; path = "Target Support Files/Pods-CellCriptyTest-CellCriptyTestTests/Pods-CellCriptyTest-CellCriptyTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE0CF584E4056C46C195B2A4 /* Pods-CellCriptyTest-CellCriptyTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellCriptyTest-CellCriptyTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CellCriptyTest-CellCriptyTestTests/Pods-CellCriptyTest-CellCriptyTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E571B4CBD98842F1A952AE /* Pods_CellCriptyTest_CellCriptyTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellCriptyTest_CellCriptyTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F3A8DB90382B9D1E9E031B /* Pods_CellCriptyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CellCriptyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1767E13CDE887584AE3E3A /* Pods-CellCriptyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellCriptyTest.release.xcconfig"; path = "Target Support Files/Pods-CellCriptyTest/Pods-CellCriptyTest.release.xcconfig"; sourceTree = "<group>"; };
+		F5197B20245F536E002FCCE3 /* FactorialPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialPresenter.swift; sourceTree = "<group>"; };
+		F5197B29245F61AE002FCCE3 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		F5197B2B245F6244002FCCE3 /* FactorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FactorialViewController.swift; path = CellCriptyTest/FactorialViewController.swift; sourceTree = SOURCE_ROOT; };
+		F5197B2D245F69D5002FCCE3 /* FactorialPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialPresenterTests.swift; sourceTree = "<group>"; };
+		F5197B31245F6D77002FCCE3 /* FactorialFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialFactory.swift; sourceTree = "<group>"; };
+		F5197B33245F6D9B002FCCE3 /* ModuloFactoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloFactoryImp.swift; sourceTree = "<group>"; };
+		F5197B35245F710D002FCCE3 /* FactorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactorialViewController.xib; sourceTree = "<group>"; };
 		F54406A2245F3AD9003F2AEF /* CellCriptyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellCriptyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54406A5245F3AD9003F2AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54406A7245F3AD9003F2AEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F54406A9245F3AD9003F2AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F54406AC245F3AD9003F2AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F54406AE245F3ADB003F2AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54406B1245F3ADB003F2AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54406B3245F3ADB003F2AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F54406B8245F3ADB003F2AEF /* CellCriptyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellCriptyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54406BC245F3ADB003F2AEF /* CellCriptyTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCriptyTestTests.swift; sourceTree = "<group>"; };
 		F54406BE245F3ADB003F2AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D98B0088C0B6D1BDB4B5D1F /* Pods_CellCriptyTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +69,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9025EDEFB7CDF1A82F45E0 /* Pods_CellCriptyTest_CellCriptyTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76C338550A30EA82832C25F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C50661D4F49886D548EF7F7B /* Pods-CellCriptyTest.debug.xcconfig */,
+				EE1767E13CDE887584AE3E3A /* Pods-CellCriptyTest.release.xcconfig */,
+				DE0CF584E4056C46C195B2A4 /* Pods-CellCriptyTest-CellCriptyTestTests.debug.xcconfig */,
+				CC01747736AF80A07EA4F732 /* Pods-CellCriptyTest-CellCriptyTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4081645B6A31467AAFCADA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6F3A8DB90382B9D1E9E031B /* Pods_CellCriptyTest.framework */,
+				E0E571B4CBD98842F1A952AE /* Pods_CellCriptyTest_CellCriptyTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5197B1F245F5357002FCCE3 /* Factorial Module */ = {
+			isa = PBXGroup;
+			children = (
+				F5197B20245F536E002FCCE3 /* FactorialPresenter.swift */,
+				F5197B2B245F6244002FCCE3 /* FactorialViewController.swift */,
+				F5197B35245F710D002FCCE3 /* FactorialViewController.xib */,
+			);
+			path = "Factorial Module";
+			sourceTree = "<group>";
+		};
+		F5197B24245F5FF7002FCCE3 /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+				F5197B29245F61AE002FCCE3 /* Calculator.swift */,
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
+		F5197B2F245F6CDE002FCCE3 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				F5197B31245F6D77002FCCE3 /* FactorialFactory.swift */,
+				F5197B30245F6CE6002FCCE3 /* FactoryImp */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		F5197B30245F6CE6002FCCE3 /* FactoryImp */ = {
+			isa = PBXGroup;
+			children = (
+				F5197B33245F6D9B002FCCE3 /* ModuloFactoryImp.swift */,
+			);
+			path = FactoryImp;
+			sourceTree = "<group>";
+		};
 		F5440699245F3AD9003F2AEF = {
 			isa = PBXGroup;
 			children = (
 				F54406A4245F3AD9003F2AEF /* CellCriptyTest */,
 				F54406BB245F3ADB003F2AEF /* CellCriptyTestTests */,
 				F54406A3245F3AD9003F2AEF /* Products */,
+				76C338550A30EA82832C25F6 /* Pods */,
+				C4081645B6A31467AAFCADA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +154,12 @@
 		F54406A4245F3AD9003F2AEF /* CellCriptyTest */ = {
 			isa = PBXGroup;
 			children = (
+				F5197B2F245F6CDE002FCCE3 /* Factories */,
+				F5197B24245F5FF7002FCCE3 /* Calculate */,
+				F5197B1F245F5357002FCCE3 /* Factorial Module */,
 				F54406C9245F3B0F003F2AEF /* AppDelegate */,
 				F54406C8245F3B07003F2AEF /* Views */,
 				F54406C7245F3AF7003F2AEF /* Sources */,
-				F54406A9245F3AD9003F2AEF /* ViewController.swift */,
 			);
 			path = CellCriptyTest;
 			sourceTree = "<group>";
@@ -90,8 +167,8 @@
 		F54406BB245F3ADB003F2AEF /* CellCriptyTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				F54406BC245F3ADB003F2AEF /* CellCriptyTestTests.swift */,
 				F54406BE245F3ADB003F2AEF /* Info.plist */,
+				F5197B2D245F69D5002FCCE3 /* FactorialPresenterTests.swift */,
 			);
 			path = CellCriptyTestTests;
 			sourceTree = "<group>";
@@ -108,7 +185,6 @@
 		F54406C8245F3B07003F2AEF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F54406AB245F3AD9003F2AEF /* Main.storyboard */,
 				F54406B0245F3ADB003F2AEF /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -130,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54406C1245F3ADB003F2AEF /* Build configuration list for PBXNativeTarget "CellCriptyTest" */;
 			buildPhases = (
+				2E608BB1A37F22AC455055DA /* [CP] Check Pods Manifest.lock */,
 				F544069E245F3AD9003F2AEF /* Sources */,
 				F544069F245F3AD9003F2AEF /* Frameworks */,
 				F54406A0245F3AD9003F2AEF /* Resources */,
+				16883E4DC9981DC19A1AE5D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54406C4245F3ADB003F2AEF /* Build configuration list for PBXNativeTarget "CellCriptyTestTests" */;
 			buildPhases = (
+				184FFA9C27FF5435691EA9F9 /* [CP] Check Pods Manifest.lock */,
 				F54406B4245F3ADB003F2AEF /* Sources */,
 				F54406B5245F3ADB003F2AEF /* Frameworks */,
 				F54406B6245F3ADB003F2AEF /* Resources */,
+				0E6DBAF7C0437A02D295A7A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,9 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5197B36245F710D002FCCE3 /* FactorialViewController.xib in Resources */,
 				F54406B2245F3ADB003F2AEF /* LaunchScreen.storyboard in Resources */,
 				F54406AF245F3ADB003F2AEF /* Assets.xcassets in Resources */,
-				F54406AD245F3AD9003F2AEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,14 +299,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E6DBAF7C0437A02D295A7A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CellCriptyTest-CellCriptyTestTests/Pods-CellCriptyTest-CellCriptyTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CellCriptyTest-CellCriptyTestTests/Pods-CellCriptyTest-CellCriptyTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CellCriptyTest-CellCriptyTestTests/Pods-CellCriptyTest-CellCriptyTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16883E4DC9981DC19A1AE5D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CellCriptyTest/Pods-CellCriptyTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CellCriptyTest/Pods-CellCriptyTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CellCriptyTest/Pods-CellCriptyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		184FFA9C27FF5435691EA9F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellCriptyTest-CellCriptyTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E608BB1A37F22AC455055DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CellCriptyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F544069E245F3AD9003F2AEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54406AA245F3AD9003F2AEF /* ViewController.swift in Sources */,
 				F54406A6245F3AD9003F2AEF /* AppDelegate.swift in Sources */,
 				F54406A8245F3AD9003F2AEF /* SceneDelegate.swift in Sources */,
+				F5197B32245F6D77002FCCE3 /* FactorialFactory.swift in Sources */,
+				F5197B21245F536E002FCCE3 /* FactorialPresenter.swift in Sources */,
+				F5197B2C245F6244002FCCE3 /* FactorialViewController.swift in Sources */,
+				F5197B2A245F61AE002FCCE3 /* Calculator.swift in Sources */,
+				F5197B34245F6D9B002FCCE3 /* ModuloFactoryImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54406BD245F3ADB003F2AEF /* CellCriptyTestTests.swift in Sources */,
+				F5197B2E245F69D5002FCCE3 /* FactorialPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,14 +414,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F54406AB245F3AD9003F2AEF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F54406AC245F3AD9003F2AEF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F54406B0245F3ADB003F2AEF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -318,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -372,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -384,6 +541,7 @@
 		};
 		F54406C2245F3ADB003F2AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50661D4F49886D548EF7F7B /* Pods-CellCriptyTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +559,7 @@
 		};
 		F54406C3245F3ADB003F2AEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1767E13CDE887584AE3E3A /* Pods-CellCriptyTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -418,6 +577,7 @@
 		};
 		F54406C5245F3ADB003F2AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0CF584E4056C46C195B2A4 /* Pods-CellCriptyTest-CellCriptyTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -439,6 +599,7 @@
 		};
 		F54406C6245F3ADB003F2AEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC01747736AF80A07EA4F732 /* Pods-CellCriptyTest-CellCriptyTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
