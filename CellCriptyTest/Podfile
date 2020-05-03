@@ -1,0 +1,15 @@
+platform :ios, '11.0'
+
+target 'CellCriptyTest' do
+    use_frameworks!
+    inhibit_all_warnings!
+    
+    pod 'BigInt', '~> 5.0'
+    
+    target 'CellCriptyTestTests' do
+        inherit! :complete
+        pod 'Nimble'
+        pod 'Quick'
+    end
+end
+

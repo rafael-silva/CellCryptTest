@@ -1,0 +1,24 @@
+PODS:
+  - BigInt (5.0.0)
+  - Nimble (8.0.7)
+  - Quick (2.2.0)
+
+DEPENDENCIES:
+  - BigInt (~> 5.0)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - BigInt
+    - Nimble
+    - Quick
+
+SPEC CHECKSUMS:
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  Nimble: a73af6ecd4c9106f434f3d55fc54570be3739e0b
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+
+PODFILE CHECKSUM: 5e836a30ea307695bf7d034e49d9fae371accc35
+
+COCOAPODS: 1.8.4
